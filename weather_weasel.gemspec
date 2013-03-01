@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "Weather_Weasel"
   spec.version       = WeatherWeasel::0.0.1
   spec.authors       = ["Elizabeth Tabler, Duncan Miller, Michael LaPeter"]
-  spec.email         = []
+  spec.email         = ["opensourceportland@gmail.com"]
   spec.description   = %q{Wunderground Weather Gem}
   spec.summary       = %q{TODO: Write a gem summary}
   spec.homepage      = "gem.add_dependency 'httparty', ">= 0.10.2""
