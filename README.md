@@ -1,3 +1,4 @@
+
 # WeatherWeasel
 
 TODO: Write a gem description
@@ -27,3 +28,9 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+weather_weasel_prototype
+========================
+
+Just a prototype
+
