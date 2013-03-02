@@ -1,7 +1,6 @@
+# weather_weasel_prototype
 
-# WeatherWeasel
-
-TODO: Write a gem description
+A prototype of a Ruby wrapper for the Weather Underground API
 
 ## Installation
 
@@ -29,8 +28,3 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 =======
-weather_weasel_prototype
-========================
-
-Just a prototype
-
