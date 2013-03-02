@@ -1,20 +1,22 @@
-# coding: utf-8
+# -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'weather_weasel/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Weather_Weasel"
-  spec.version       = WeatherWeasel::0.0.1
+  spec.name          = "weather_weasel"
+  spec.version       = WeatherWeasel::VERSION
   spec.authors       = ["Elizabeth Tabler, Duncan Miller, Michael LaPeter"]
   spec.email         = ["opensourceportland@gmail.com"]
   spec.description   = %q{Wunderground Weather Gem}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = "gem.add_dependency 'httparty', ">= 0.10.2""
+  spec.homepage      = ""
   spec.license       = "MIT"
+  
+  spec.add_dependency 'httparty', ">= 0.10.2"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.executables   = spec.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
